@@ -11,6 +11,11 @@ def test_mean1():
     obs = mean([0, 200])
     exp = 100
     assert_equal(obs, exp)
+    
+    obs = mean([0,100])
+    exp = 50
+    assert_equal(obs, exp)
+
 
     obs = mean([0, -200])
     exp = -100
